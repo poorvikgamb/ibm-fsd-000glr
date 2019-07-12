@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TIME TABLE FOR THE DAY </title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            
+            .container{overflow: hidden}
+            .tab{float: left;}
+            .tab-2{margin-left: 50px}
+            .tab-2 input{display: block;margin-bottom: 10px}
+            tr{transition:all .25s ease-in-out}
+            tr:hover{background-color:#EEE;cursor: pointer}
+            
+        </style>
+         <style>
+            body{
+                         background: linear-gradient(45deg,red 40%,blue 60% )
+                     }
+            </style>
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="tab tab-1">
+                <table id="table" border="1">
+                    <tr>
+                        <th>Trainer Name</th>
+                        <th>Subject 1</th>
+                        <th>Subject 2</th>
+                        <th>Subject 3</th>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="tab tab-2">
+                Trainer Name :<input type="text" name="fname" id="Tname">
+
+                <select id="S1">
+                    <option>Math</option>
+                    <option>Physics</option>
+                    <option>Chemistry</option>
+                    <option>Biology</option>
+                    <option>History</option>
+                    <option>Geography</option>
+                </select></br></br>
+                <select id="S2">
+                        <option>Math</option>
+                        <option>Physics</option>
+                        <option>Chemistry</option>
+                        <option>Biology</option>
+                        <option>History</option>
+                        <option>Geography</option>
+                    </select></br></br>
+                    <select id="S3">
+                            <option>Math</option>
+                            <option>Physics</option>
+                            <option>Chemistry</option>
+                            <option>Biology</option>
+                            <option>History</option>
+                            <option>Geography</option>
+                        </select></br></br>
+                
+                <button onclick="addHtmlTableRow();">Add</button>
+                <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+                <button onclick="removeSelectedRow();">Remove</button>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="assignweek1.js"></script>
+        <label> click on 'done' after entering details </label>
+        <form action="asign2.html" method="POST">
+            <input type="submit" class="button" value="DONE">
+        </form>
+
+
+        
+    </body>
+</html>

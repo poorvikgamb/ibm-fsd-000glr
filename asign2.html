@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Welcome to time table</title>
+    <script type="text/javascript" src="assign2.js"></script>
+</head>
+
+<body>
+    <style>
+    body{
+                 background: linear-gradient(45deg,red 40%,blue 60% )
+             }
+    </style>
+
+<div class="container">
+        <div class="tab tab-1">
+            <table id="timetable" border="1">
+                <tr>
+                    <th>10A.M-11A.M</th>
+                    <th>11A.M-12P.M</th>
+                    <th>12P.M-1P.M</th>
+                    <th>2P.M-3P.M</th>
+                    <th>3P.M-4P.M</th>
+                    <th>4P.M-5P.M</th>
+                </tr>
+            </table>
+        </div>
+    </br>
+</br>
+</br>
+</br>
+</br>
+
+        <div class="tab tab-2">
+            Trainer Name :<input type="text" name="fname" id="Tname1">
+            <label>Select subject from area of expertise</label></br>
+            <select id="S4">
+                <option>Math</option>
+                <option>Physics</option>
+                <option>Chemistry</option>
+                <option>Biology</option>
+                <option>History</option>
+                <option>Geography</option>
+            </select></br></br>
+            <label>Select time slot</label></br>
+            <select id="TS">
+                    <option>10A.M-11A.M</option>
+                    <option>11A.M-12P.M</option>
+                    <option>12P.M-1P.M</option>
+                    <option>2P.M-3P.M</option>
+                    <option>3P.M-4P.M</option>
+                    <option>4P.M-5P.M</option>
+                </select></br></br>
+
+            <button onclick="addHtmlTableRowTT();">Add to TT</button>
+            <button onclick="editHtmlTbleSelectedRowTT();">Edit from TT</button>
+            <button onclick="removeSelectedRowTT();">Remove from TT</button>
+        </div>
+    </div></br></br>
+    
+
+
+</body>
+</html>
