@@ -1,0 +1,22 @@
+<p>Number of users are{{count}} active are {{aUser}} not-active are{{dUser}}</p>
+<b>click here to add user</b>
+<input type="button" (click)="addUser()" value="add">
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>STATUS</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let u of users">
+            <td>{{u.id}}</td>
+            <td>{{u.name}}</td>
+            <td>{{u.age}}</td>
+            <td>{{u.status}}</td>
+            <td><input type="button" value="delete" (click)="deleteUser()"></td>
+        </tr>
+    </tbody>
+</table>
