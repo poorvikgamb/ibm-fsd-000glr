@@ -2,6 +2,8 @@ package third;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Deck {
 	private static Suit suit;
@@ -18,8 +20,9 @@ public class Deck {
 		}
 	}
 	
-	public static void main(String [  ] args) {
+	/*public static void main(String [  ] args) {
+		Collections.shuffle(protoDeck);
 		System.out.print(protoDeck);
-	}
+	}*/
 
 }
