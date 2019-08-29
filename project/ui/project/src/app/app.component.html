@@ -1,32 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<html>
-    <head>
-        <title >Payment Gateway</title>
-        <style>
-        </style>
-        <meta charset="utf-8">
-        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">-->
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <h2>Welcome to Payment Gateway</h2>
-    </br></br></br>
-    <!-- For paying by card -->
 
+      
     <h3>Pay by card</h3>
           <div class="accordion" id="accordionExample1">
             <div class="card">
               <div class="card-header" id="headingOne">
-                    <img src="debitcard.jfif" class="rounded float-right" width="150px" height="70px">
+                    <img src="./debitcard.jfif" class="rounded float-right" width="150px" height="70px">
                 <h2 class="mb-0">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     DEBIT CARD/DEBIT CARD
@@ -38,13 +17,13 @@
                 <div class="card-body">
                         <form id="frm1" name="form for debit card">
                                 <label for = "name1">Enter name</label>
-                                <input type="text" id="name1" maxlength=30 placeholder="name on card"></br></br>
+                                <input type="text" id="name1" maxlength=30 placeholder="name on card">
 
                                 <label for = "crdnum1">Card number</label>
-                                <input type="text"  id="crdnum1" maxlength=20 placeholder="number on card"></br></br>
+                                <input type="text"  id="crdnum1" maxlength=20 placeholder="number on card">
 
                                 <label for = "vt1">valid through</label>
-                                <input type="date" id="vt1"></br></br>
+                                <input type="date" id="vt1">
 
                                 <label for = "cvv1">CVV</label>
                                 <input type="number" max=1000 id="cvv1" onmouseover="show1()" onmouseout="hide1()">
@@ -71,13 +50,13 @@
                         
                         <form id="frm2" name="form for debit card">
                                 <label for = "name2">Enter name</label>
-                                <input type="text" id="name2" maxlength=30 placeholder="name on card"></br></br>
+                                <input type="text" id="name2" maxlength=30 placeholder="name on card">
 
                                 <label for = "crdnum2">Card number</label>
-                                <input type="text"  id="crdnum2" maxlength=20 placeholder="number on card"></br></br>
+                                <input type="text"  id="crdnum2" maxlength=20 placeholder="number on card">
 
                                 <label for = "vt2">valid through</label>
-                                <input type="date" id="vt2"></br></br>
+                                <input type="date" id="vt2">
 
                                 <label for = "cvv2">CVV</label>
                                 <input type="number" max=1000 id="cvv2" onmouseover="show2()" onmouseout="hide2()">
@@ -213,8 +192,5 @@
             
         </script>
 
-    </body>
-</html>
-  
 
 <router-outlet></router-outlet>
