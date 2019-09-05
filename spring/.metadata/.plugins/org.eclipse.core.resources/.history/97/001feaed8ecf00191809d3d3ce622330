@@ -1,0 +1,8 @@
+package Poorvik.SpringDatabase.Source;
+
+public class EmployeeDao {
+	
+	private JdbcTemplate template;
+	
+
+}

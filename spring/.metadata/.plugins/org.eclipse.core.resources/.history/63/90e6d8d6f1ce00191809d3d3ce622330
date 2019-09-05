@@ -1,0 +1,22 @@
+package Poorvik.FirstTimeSpring;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import Poorvik.FirstTimeSpring.bean.BaseballCoach;
+import Poorvik.FirstTimeSpring.bean.Coach;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        try {
+			ClassPathXmlApplicationContext context =
+					new ClassPathXmlApplicationContext("applicationContext1.xml");
+			//Coach myCoach = context.getBean("theCoach",BaseballCoach.class);
+			//System.out.println(myCoach.getDailyWorkOut());
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+    }
+}
