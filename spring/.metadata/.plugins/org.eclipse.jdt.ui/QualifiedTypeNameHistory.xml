@@ -30,4 +30,5 @@
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="Controller.Student"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 </qualifiedTypeNameHistroy>

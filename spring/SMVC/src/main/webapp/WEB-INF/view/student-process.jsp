@@ -7,6 +7,11 @@
 <title>Student Details</title>
 </head>
 <body>
-	Student Name:${tempStudent.firstName}
+	student Name:${tempStudent.firstName}<br>
+	student country:${tempStudent.country}<br>
+	student language:${tempStudent.favoriteLanguage}<br>
+	<form:form action="viewStudents">
+	<input type="submit" value="view all students">
+	</form:form>
 </body>
 </html>

@@ -1,8 +1,12 @@
 INDEX VERSION 1.131
+C:\ibm-fsd-000glr\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2680556465.index
+\SMVC\src\main\java
 C:\Users\B4ibmjava25\Documents\workspace-sts-3.9.9.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2680556465.index
 \SMVC\src\main\java
 C:\Users\B4ibmjava25\Documents\workspace-sts-3.9.9.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\812097377.index
 \SMVC\src\main\resources
+C:\ibm-fsd-000glr\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3828035660.index
+\SpringMVC\src\main\java
 C:\Users\B4ibmjava25\Documents\workspace-sts-3.9.9.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3828035660.index
 \SpringMVC\src\main\resources
 C:\Users\B4ibmjava25\Documents\workspace-sts-3.9.9.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\893552416.index
