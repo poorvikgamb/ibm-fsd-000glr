@@ -1,0 +1,6 @@
+package Poorvik.Annotaions.imp;
+
+@Con
+public class AnnotationConfiguration {
+
+}
