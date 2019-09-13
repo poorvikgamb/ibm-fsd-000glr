@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<meta charset="UTF-8" />
+<title>Security</title>
+</head>
+<body>
+	<h1>Home page</h1>
+	<a th:href="@{/viewLeague}">View leagues</a>
+	<br />
+	<a th:href="@{/addLeague}">Add leagues</a>
+	<br />
+	<form th:action="@{/logout}" method="POST">
+
+		<div style="margin-top: 10px" class="form-group">
+			<div class="col-sm-6 controls">
+				<button type="submit" class="btn btn-danger">Logout</button>
+			</div>
+		</div>
+
+	</form>
+</body>
+</html>
