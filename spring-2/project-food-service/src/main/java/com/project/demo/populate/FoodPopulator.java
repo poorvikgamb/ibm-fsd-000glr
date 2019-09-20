@@ -33,12 +33,16 @@ public class FoodPopulator implements ApplicationListener<ContextRefreshedEvent>
 		Cuisine cuisine = new Cuisine("south indian");
 		
 		Food food = new Food();
+		
 		food.setFUid(UUID.randomUUID().toString());
 		food.setCategory(true);
 		food.setName("poori");
 		food.setImage("poori.jpeg");
+		
+		food.getCuisine().add(cuisine);	
+		
 		cuisine.setFood(food);
-		food.getCuisine().add(cuisine);		
+			
 		
 		foodRepository.save(food);
 		cuisineRepository.save(cuisine);

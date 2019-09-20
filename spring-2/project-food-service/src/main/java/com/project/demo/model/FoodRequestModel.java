@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestModel {
+public class FoodRequestModel {
 	
    private String image;//stores link of the image
 	

@@ -11,6 +11,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -32,8 +34,8 @@ public class Food {
 	private String name;
 	
 	private Boolean category;
-	
-	@OneToMany(mappedBy = "food",cascade = CascadeType.ALL)
+	@JsonIgnore
+	@OneToMany(mappedBy = "food",cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.REMOVE,CascadeType.REFRESH})
 	private List<Cuisine> cuisine = new ArrayList<Cuisine>();
  	
 	private String rUid;//dummy restaurant id	
