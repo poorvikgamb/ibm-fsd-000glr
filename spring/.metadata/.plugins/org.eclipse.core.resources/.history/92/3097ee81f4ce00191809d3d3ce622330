@@ -1,7 +1,0 @@
-package Poorvik.FirstTimeSpring.bean;
-
-public interface Luck {
-	
-	public static String getLuck();
-		
-}

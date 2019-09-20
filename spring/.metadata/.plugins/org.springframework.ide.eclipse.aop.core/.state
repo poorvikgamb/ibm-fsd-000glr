@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="rest_crm"/>
+<aop-project name="player-service"/>
+<aop-project name="imageservice"/>
+<aop-project name="freignservice"/>
+<aop-project name="sentence-service"/>
+<aop-project name="eurekaserver"/>
+<aop-project name="employee"/>
+<aop-project name="demo-2"/>
+<aop-project name="security-employee"/>
+<aop-project name="productservice"/>
+<aop-project name="word-service"/>
+<aop-project name="SMVC"/>
+<aop-project name="microservice-server"/>
+<aop-project name="demo-1"/>
 <aop-project name="FirstTimeSpring"/>
+<aop-project name="demo"/>
+<aop-project name="airservice"/>
+<aop-project name="league-service"/>
+<aop-project name="zuulservice"/>
+<aop-project name="cook"/>
+<aop-project name="microservice-client"/>
+<aop-project name="galleryservice"/>
+<aop-project name="CONFIG-SERVER"/>
 <aop-project name="Annotaions"/>
 <aop-project name="DataSourceAnnotation"/>
-<aop-project name="SMVC"/>
 </aop-reference-model>
