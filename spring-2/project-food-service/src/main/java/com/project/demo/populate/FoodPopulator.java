@@ -31,6 +31,7 @@ public class FoodPopulator implements ApplicationListener<ContextRefreshedEvent>
 		// TODO Auto-generated method stub
 		
 		Cuisine cuisine = new Cuisine("south indian");
+		Cuisine cuisine2 = new Cuisine("karnataka style");
 		
 		Food food = new Food();
 		
@@ -40,10 +41,8 @@ public class FoodPopulator implements ApplicationListener<ContextRefreshedEvent>
 		food.setImage("poori.jpeg");
 		
 		food.getCuisine().add(cuisine);	
-		
-		cuisine.setFood(food);
+		food.getCuisine().add(cuisine2);
 			
-		
 		foodRepository.save(food);
 		cuisineRepository.save(cuisine);
 		

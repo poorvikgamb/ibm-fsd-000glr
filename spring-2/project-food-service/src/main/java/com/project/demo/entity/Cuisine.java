@@ -26,9 +26,4 @@ public class Cuisine {
 		super();
 		this.name = name;
 	}
-
-	@ManyToOne
-	@JoinTable(name = "food_cuisine")
-	private Food food;
-
 }

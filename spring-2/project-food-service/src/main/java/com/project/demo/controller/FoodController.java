@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.project.demo.dto.FoodDTO;
@@ -19,6 +20,7 @@ import com.project.demo.model.FoodRequestModel;
 import com.project.demo.model.FoodResponseModel;
 import com.project.demo.service.FoodService;
 
+@RequestMapping("/food")
 @RestController
 public class FoodController {
 	

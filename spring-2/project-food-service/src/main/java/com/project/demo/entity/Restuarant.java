@@ -2,7 +2,6 @@ package com.project.demo.entity;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -15,33 +14,26 @@ import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Entity
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-@Entity
-public class Food {
+public class Restuarant {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
-	private String fUid;//generated randomly 
-	
-	private String image;//stores link of the image
-	
 	private String name;
-	
-	private Boolean category;
 	
 	@JsonIgnore
 	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name = "fUid",referencedColumnName = "id")
-	@JoinTable(name = "food_cuisine")
-	private List<Cuisine> cuisine = new ArrayList<Cuisine>();
- 	
-	private String rUid;//dummy restaurant id	
+	@JoinColumn(name = "id",referencedColumnName = "id")
+	@JoinTable(name = "restaurant_cuisine")
+	private List<Cuisine> cuisne = new ArrayList<Cuisine>();
+	
+	
+
 }
